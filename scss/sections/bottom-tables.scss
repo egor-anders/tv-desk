@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 27px;
 
   &__bear {
     position: absolute;
@@ -13,7 +12,7 @@
     border-radius: 26px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    box-shadow: 0 4px 57px 14px rgb(155 170 194 / 40%);
+    box-shadow: 0 4px 57px 5px rgb(155 170 194 / 40%);
     transform: translateX(-50%);
 
     img {
