@@ -2,7 +2,8 @@
   position: absolute;
   top: 22px;
   right: 17px;
-  display: flex;
+  z-index: 11;
+  display: none;
   flex-direction: column;
   gap: 10px;
   width: 437px;

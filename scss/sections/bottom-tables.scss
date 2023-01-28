@@ -5,8 +5,10 @@
 
   &__bear {
     position: absolute;
-    top: -14px;
+    top: -12px;
     left: 50%;
+    width: 332px;
+    height: 332px;
     padding: 35px 34px 24px;
     background: #FFFFFF;
     border-radius: 26px;
@@ -15,9 +17,9 @@
     box-shadow: 0 4px 57px 5px rgb(155 170 194 / 40%);
     transform: translateX(-50%);
 
-    img {
-      width: 332px;
-      height: 332px;
+    * {
+      width: 100%;
+      height: 100%;
     }
   }
 }

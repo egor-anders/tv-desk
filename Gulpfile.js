@@ -16,8 +16,7 @@ gulp.task('styles', function () {
     .pipe(sass({ includePaths: ['./scss'] }))
     .pipe(postcss([autoprefixer()]))
     .on('data', function (file) {
-      const buferFile = new CleanCSS(cleanOptions).minify(file.contents);
-      return (file.contents = Buffer.from(buferFile.styles));
+      return file.contents;
     })
     .pipe(gulp.dest('./assets/css'));
 });
