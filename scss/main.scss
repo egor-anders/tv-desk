@@ -1,20 +1,45 @@
 @import 'vendor/normalize.scss';
-@import 'variables.scss';
+@import 'sections/top-tables.scss';
+@import 'sections/bottom-tables.scss';
+@import 'sections/middle.scss';
+@import 'components/table.scss';
+
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Bold.ttf');
+}
 
 body {
   margin: 0;
   padding: 0;
-  color: $color-body;
-  font-family: 'Courier New', 'Courier', monospace;
-  background-color: rgb(232 226 226);
+  color: #1C1C1C;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif, monospace;
+  background-color: #F7F9FB;
 }
 
 .container {
   box-sizing: border-box;
+  width: 100%;
+  max-width: 1920px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 20px;
+  padding-bottom: 0;
 }
 
 h1, h2, h3, p {

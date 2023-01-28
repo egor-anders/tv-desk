@@ -1,0 +1,24 @@
+.bottom-tables {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+
+  &__bear {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    padding: 35px 34px 24px;
+    background: #FFFFFF;
+    border-radius: 26px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 4px 57px 14px rgb(155 170 194 / 40%);
+    transform: translateX(-50%);
+
+    img {
+      width: 332px;
+      height: 332px;
+    }
+  }
+}
