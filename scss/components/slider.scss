@@ -17,6 +17,7 @@
   &__value {
     position: absolute;
     top: 50%;
+    z-index: 1;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 22px;
@@ -39,6 +40,7 @@ https://toughengineer.github.io/demo/slider-styler */
 
 input[type='range'].styled-slider {
   height: 83px;
+  border-radius: 1000px;
   appearance: none;
 }
 
